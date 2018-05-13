@@ -83,16 +83,6 @@ body > div {
 }
 
 
-.main-info {
-   
-}
-
-.contact-info {
-}
-
-.about {
-}
-
 .personal-info {
     display: flex;
 
@@ -116,7 +106,7 @@ body > div {
 
 .main-info > h2 {
     font-size: 25px;
-    color: cornflowerblue;
+    color:#104E67;
     margin-bottom: 20px;
 
 }
@@ -129,6 +119,21 @@ main {
 
 .personal-info-table td{
     padding: 10px 40px 10px 0;
+    color: #104E67;
 
 }
 
+.contact-info-table td{
+    padding: 10px 40px 10px 0;
+    color: #104E67;
+}
+
+.contact-info-table{
+    margin-bottom: 30px;
+}
+
+.about > h2 {
+    color: #104E67;
+    font-size: 20px;
+    font-weight:bold
+}
