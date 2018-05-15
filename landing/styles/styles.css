@@ -146,6 +146,7 @@ main {
     display: flex;
     align-items: flex-end;
     margin: 20px 20px;
+    width: 330px;
  }
  
 
@@ -159,7 +160,29 @@ main {
     margin-left: 5px;
 }
 
+footer {
+     display: flex;
+}
 
 .footer-logo {
- 
+ display: flex;
+ flex-direction: row;
+ width: 200px;
+}
+
+.footer-logo-img {
+    background: url('../img/logo.jpg') no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+}
+.footer-logo-text {
+    margin-left: 20px;
+    color: honeydew;
+    width: 140px;
+}
+
+.footer-logo-text > span {
+    color:darkcyan;
+    text-decoration: underline;
 }
