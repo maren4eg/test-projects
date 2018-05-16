@@ -3,7 +3,6 @@ body > div {
     
 }
 
-
 #root {
     width: 700px;
     margin: 0 auto;
@@ -63,7 +62,6 @@ body > div {
 
 .comp {
     background: url('../img/computer.svg') no-repeat;
-    width: 25px !important;
 }
 
 .twit {
@@ -146,7 +144,6 @@ main {
     display: flex;
     align-items: flex-end;
     margin: 20px 20px;
-    width: 330px;
  }
  
 
@@ -160,14 +157,11 @@ main {
     margin-left: 5px;
 }
 
-footer {
-     display: flex;
-}
-
 .footer-logo {
+padding-top: 10px;
  display: flex;
  flex-direction: row;
- width: 200px;
+ margin: 10px 20px;
 }
 
 .footer-logo-img {
@@ -186,3 +180,10 @@ footer {
     color:darkcyan;
     text-decoration: underline;
 }
+
+.footer-content{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
