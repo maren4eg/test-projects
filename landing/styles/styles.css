@@ -156,12 +156,14 @@ main {
     color: blanchedalmond;
     margin-left: 5px;
 }
-
 .footer-logo {
-padding-top: 10px;
- display: flex;
- flex-direction: row;
- margin: 10px 20px;
+   padding-top: 10px;
+   display: flex;
+   flex-direction: row;
+   margin: 10px 20px;
+}
+footer {
+     display: flex;
 }
 
 .footer-logo-img {
@@ -180,10 +182,8 @@ padding-top: 10px;
     color:darkcyan;
     text-decoration: underline;
 }
-
 .footer-content{
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
 }
-

@@ -1,3 +1,3 @@
 # pashasherstyk.github.io
 
-https://pashasherstyk.github.io/landing
+https://maren4eg.github.io/test-projects/landing
