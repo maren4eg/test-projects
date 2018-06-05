@@ -1,0 +1,10 @@
+ body {
+     background-color: #282828;
+ }
+
+.container {
+    min-height: 300px;
+    width: 70%;
+    margin: 50px auto;
+}
+
